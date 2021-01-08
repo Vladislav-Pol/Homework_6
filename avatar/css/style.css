@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100vw;
+}
+.avatar{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 20px;
+    display: inline-block;
+}
+.avatar > *{
+    position: absolute;
+}
+.avatar .border{
+    width: 100%;
+    height: 100%;
+}
+.avatar .background{
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+}
+.avatar .body{
+    width: 80%;
+    bottom: 5%;
+    left: 10%;
+    clip: rect(auto, auto, 203px, auto);
+}
+.avatar .smile{
+    width: 26%;
+    bottom: 26%;
+    left: 37%;
+}
+.avatar .eyes{
+    width: 22%;
+    bottom: 48%;
+    left: 39%;
+}
+.avatar .nose{
+    width: 10%;
+    bottom: 43%;
+    left: 45%;
+}
+.avatar1 .head{
+    width: 90%;
+    bottom: 5%;
+    left: 5%;
+}
+.avatar1 .clothing{
+    width: 80%;
+    bottom: 10%;
+    left: 10%;
+}
+.avatar1 .beard{
+    width: 45%;
+    bottom: 10%;
+    left: 27.5%;
+}
+.avatar2 .head{
+    width: 38%;
+    bottom: 58%;
+    left: 31%;
+}
+.avatar2 .clothing{
+    width: 94%;
+    bottom: 10%;
+    left: 3%;
+}
+.avatar3 .head{
+    width: 46%;
+    bottom: 57%;
+    left: 27%;
+}
+.avatar3 .clothing{
+    width: 80%;
+    bottom: 10%;
+    left: 10%;
+}
